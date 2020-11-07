@@ -1,0 +1,504 @@
+
+body{
+    background-color: #e9e9e938;
+}
+
+
+.header{
+    width: 100%;
+    background-image: url(../imagenes/manos-unidas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header:before{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36));
+}
+
+.size-logo{
+    height: 80px;
+}
+
+
+.bg-dark{
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    left:0!important;
+    background-color: #034c8c9a!important;
+    transition: 0.5s ease-in-out;
+}
+
+.bg-dark.scrolled{
+    background-color: #034c8c!important;
+    box-shadow: 3px 3px 6px #3b3b3b;
+}
+
+.navg a{
+    color: #f4f4f4!important;
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding: 8px 15px!important;
+    text-align: center;
+    margin: 10px 8px;
+}
+
+.navg a:hover{
+    background-color: #39b54a7e;
+    border-radius: 2px;
+}
+
+.text-header{
+    min-height: 100vh;
+    color: #f4f4f4;
+    font-family: 'Palatino Lynotipe';
+}
+
+.text-mine{ 
+    font-size: 30px;    
+    margin-top: 60px;
+    color: #f4f4f4;
+}
+
+#p {
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.btn-mine-header{
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px 80px;
+    color: #f4f4f4;
+    background-color: #034c8c;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.btn-mine-header:hover{
+    background-color: #034c8c9f;
+    color: #f4f4f4a4;
+}
+
+.btn-mine{
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px 60px;
+    color: #f4f4f4;
+    background-color: #034c8c;
+    margin-top: 30px;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.btn-mine:hover{
+    background-color: #034c8c9f;
+    color: #f4f4f4a4;
+}
+
+.video{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row-general{
+    min-height: 65vh;
+}
+
+.row-general-2{
+    min-height: 40vh;
+}
+
+.navbar-toggler{
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggler-icon{
+background-image: none!important;
+}
+
+.text-main{
+    font-family: 'Paladino Lynotipe';
+    color: #3b3b3b;
+}
+
+
+.hr-main-2{
+    margin-top: 45px;
+    margin-right: 12px;
+}
+
+
+.hr-main{
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.bg-section{
+    background-color: #39b54a7e;
+}
+
+.text-section{
+        font-family: 'Paladino Lynotipe';
+        color: #3b3b3b;
+}
+
+.shadow-img{
+    box-shadow: 3px 3px 6px #999;
+}
+
+
+.p-section-1{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+.p-section-2{
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #3b3b3b;
+}
+
+.i{
+    color: #f4f4f4;
+    font-size: 2.5rem;
+}
+
+.text-cite{
+    font-size: 20px;
+}
+
+.text-gracias{
+    font-family: 'Paladino Lynotipe';
+    font-size: 45px;
+}
+
+.size-logo-final{
+    height: 45px;
+}
+
+#footer-2{
+    background-color: #333333;
+    border-width: 3.5px 0 0;
+    border-style: solid;
+    border-color: #39b54a7e;
+}
+
+.header-nosotros{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/DSC01619.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-nosotros:before{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(204, 204, 204, 0.616), rgb(204, 204, 204, 0.616));
+}
+
+.text-mine-nosotros{ 
+    font-size: 40px;    
+    margin-bottom: 20px;
+    color: #02437c;
+    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+}
+
+#p-nosotros{
+    font-family: 'Roboto';
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #02437c;
+    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+}
+
+.border-primary{
+    border: 2px solid;
+    border-color: #39b54a7e!important;
+}
+
+.card-header{
+    background-color: #034c8c;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    font-weight: bolder;
+    font-family: 'Paladino Lynotipe';
+}
+
+.card-title{
+    text-transform: uppercase;
+    color: #3b3b3b;
+    font-weight: bolder;
+    font-family: 'Paladino Lynotipe'!important;
+}
+
+
+.card-text{
+    color: #3b3b3b
+}
+
+.bg-section-nosotros{
+    background-color: #02437c;
+}
+
+.text-org-nosotros{
+    font-style: italic;
+}
+
+.header-sentimientos{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../imagenes/manos-sentimientos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-sentimientos:before{
+    content: '';
+    width: 100%;
+    min-height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(158, 158, 158, 0.747), rgba(158, 158, 158, 0.747));
+}
+
+.text-mine-sentimientos{ 
+    font-size: 40px;    
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+    text-transform: uppercase;
+}
+
+#p-sentimientos{
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+}
+
+.btn-mine-sentimientos{
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 8px 60px;
+    color: #f4f4f4;
+    background-color: #034c8c;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.btn-mine-sentimientos:hover{
+    background-color: #034c8c9f;
+    color: #f4f4f4a4;
+}
+
+.bg-success{
+    background-color: #39b54a7e!important;
+    border-radius: 2px;
+}
+
+.heroes{
+    width: 100%;
+    height: 85vh;
+    background-image: url(../imagenes/heroes-sentimientos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-bienestar{
+    font-weight: bold;
+    padding: 8px 40px;
+    color: #034c8c;
+    background-color: #fff;
+    margin-top: 8px;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);;
+    border-radius: 2px;
+    border: 2px solid #034c8c;
+    min-width: 18rem;
+}
+
+.btn-bienestar:hover {
+    color: #034c8c9f;
+    border: 2px solid #034c8c9f; 
+}
+
+.btn-medios{
+    color: #3b3b3b;
+    font-size: 30px;
+}
+
+.btn-medios:hover{
+    background-color: #034c8c;
+    padding: 6px 30px;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+    color: #f4f4f4;
+}
+
+.header-eventos{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../imagenes/portada-actividades.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-eventos:before{
+    content: '';
+    width: 100%;
+    min-height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgba(34, 25, 36, 0.87));
+}
+
+.text-mine-actividades{ 
+    font-size: 50px;    
+    text-transform: uppercase;
+}
+
+.form-contacto{
+    width: 600px;
+    height: auto;
+    margin: 7% auto;
+    padding-bottom: 1rem; 
+    background-color: #f0f0f048;
+    border-radius: 2px;
+}
+
+.form2-contacto{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-top: solid 0.4rem #034c8c;
+    margin-bottom: 0.5rem;
+}
+
+.form2-h2 {
+    font-family: 'Roboto';
+    color: #3B3B3B;
+    font-weight: lighter;
+}
+
+#estamos-con-vos{
+    font-family: 'Paladino Lynotipe';
+    font-size: 30px;
+    color: #034c8c;
+    text-shadow: 1px 1px 3px #999;
+}
+
+#consulta{
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+#boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; 
+}
+
+.campo {
+    background-color: transparent;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #DBDBDB .15rem;
+    transition: all .5s; 
+}
+
+.campo:focus {
+        border-bottom: solid #034c8c 0.2rem; 
+}
+
+#enviar {
+    width: 35%;
+    background-color: #034c8c;
+    font-family: 'Roboto';
+    color: white;
+    padding: 10px 45px;
+    border-radius: 2px;
+    border: none; 
+    font-weight: bold;
+}
+
+#enviar:hover {
+    background-color: #034c8c9f; 
+}
+
+.bg-danger{
+    background-color: #034c8c!important;
+}
+
+.fa-phone-alt{
+    font-size: 40px;
+}
+
+.fa-map-marker-alt{
+    font-size: 40px;
+}
+
+.fa-envelope{
+    font-size: 45px;
+}
+
+.header-contacto{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../imagenes/manos-unidas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-contacto:before{
+    content: '';
+    width: 100%;
+    min-height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgba(34, 25, 36, 0.87));
+}
+
+.margin-img{
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.text-section-asistencia{
+    color: #3B3B3B;
+}
