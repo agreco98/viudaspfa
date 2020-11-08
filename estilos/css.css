@@ -502,3 +502,19 @@ background-image: none!important;
 .text-section-asistencia{
     color: #3B3B3B;
 }
+
+.carousel-control-prev-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #3B3B3B;
+    background-size: 1.2rem;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #3B3B3B;
+    background-size: 1.2rem;
+    border-radius: 50%;
+}
