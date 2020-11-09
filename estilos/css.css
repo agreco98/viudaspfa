@@ -382,6 +382,7 @@ background-image: none!important;
 .text-mine-actividades{ 
     font-size: 50px;    
     text-transform: uppercase;
+    text-shadow: 1px 1px 3px #999;
 }
 
 .form-contacto{
@@ -517,4 +518,43 @@ background-image: none!important;
     background-color: #3B3B3B;
     background-size: 1.2rem;
     border-radius: 50%;
+}
+
+.header-asistencia{
+    width: 100%;
+    background-image: url(../imagenes/card-home-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-asistencia:before{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36));
+}
+
+.header-novedades{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../imagenes/Novedades/fondo-novedades.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-novedades:before{
+    content: '';
+    width: 100%;
+    min-height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36));
 }
