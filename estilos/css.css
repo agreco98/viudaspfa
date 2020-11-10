@@ -558,3 +558,9 @@ background-image: none!important;
     left: 0;
     background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36));
 }
+
+.h1-asistencia{
+    font-family: 'Paladino Lynotipe';
+    font-size: 50px;
+    color: #3b3b3b;
+}
