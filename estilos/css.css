@@ -572,6 +572,11 @@ background-image: none!important;
     height: 300px;
 }
 
+.fa-bars{
+    color: #f4f4f4;
+    font-size: 30px;
+}
+
 @media only screen and (max-width: 767px) {
 
 .header-nosotros{
