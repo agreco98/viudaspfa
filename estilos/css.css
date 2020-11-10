@@ -199,7 +199,7 @@ background-image: none!important;
 
 .header-nosotros{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-image: url(../imagenes/DSC01619.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -210,7 +210,7 @@ background-image: none!important;
 .header-nosotros:before{
     content: '';
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -218,19 +218,19 @@ background-image: none!important;
 }
 
 .text-mine-nosotros{ 
-    font-size: 40px;    
+    font-size: 8vh;    
     margin-bottom: 20px;
     color: #02437c;
-    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+    text-shadow: 1px 1px 2px rgb(80, 80, 80);
 }
 
 #p-nosotros{
     font-family: 'Roboto';
-    font-size: 25px;
+    font-size: 4vh;
     padding-left: 40px;
     padding-right: 40px;
     color: #02437c;
-    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+    text-shadow: 1px 1px 2px rgb(80, 80, 80);
 }
 
 .border-primary{
@@ -289,14 +289,14 @@ background-image: none!important;
 .text-mine-sentimientos{ 
     font-size: 40px;    
     margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+    text-shadow: 1px 1px 2px rgb(80, 80, 80);
     text-transform: uppercase;
 }
 
 #p-sentimientos{
     font-family: 'Roboto';
     font-size: 25px;
-    text-shadow: 2px 2px 5px rgb(124, 124, 124);
+    text-shadow: 1px 1px 2px rgb(80, 80, 80);
 }
 
 .btn-mine-sentimientos{
@@ -382,26 +382,26 @@ background-image: none!important;
 .text-mine-actividades{ 
     font-size: 50px;    
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px #999;
+    text-shadow: 1px 1px 2px rgb(80, 80, 80);
 }
 
 .form-contacto{
-    width: 600px;
+    width: 75vh;
     height: auto;
     margin: 7% auto;
     padding-bottom: 1rem; 
     background-color: #f0f0f048;
     border-radius: 2px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-top: solid 0.4rem #034c8c;
 }
 
 .form2-contacto{
     width: 100%;
     text-align: center;
     padding: 2rem 2rem;
-    border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
-    -webkit-border-radius: 3px 3px 3px 3px;
-    border-top: solid 0.4rem #034c8c;
     margin-bottom: 0.5rem;
 }
 
@@ -445,10 +445,11 @@ background-image: none!important;
 }
 
 #enviar {
-    width: 35%;
+    width: 70%;
     background-color: #034c8c;
     font-family: 'Roboto';
     color: white;
+    margin-top: 8px;
     padding: 10px 45px;
     border-radius: 2px;
     border: none; 
@@ -522,7 +523,8 @@ background-image: none!important;
 
 .header-asistencia{
     width: 100%;
-    background-image: url(../imagenes/card-home-3.jpg);
+    height: 90vh;
+    background-image: url(../imagenes/Eventos/eventos-2015/eventos-2015-13.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -532,11 +534,11 @@ background-image: none!important;
 .header-asistencia:before{
     content: '';
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36));
+    background-image: linear-gradient(rgba(92, 92, 92, 0.493), rgba(34, 25, 36, 0.829));
 }
 
 .header-novedades{
@@ -564,3 +566,42 @@ background-image: none!important;
     font-size: 50px;
     color: #3b3b3b;
 }
+
+.card-video{
+    max-width: 950px; 
+    height: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-nosotros{
+    
+    height: 100vh;
+    
+    }
+
+.header-nosotros:before{
+    
+    height: 100vh;
+    
+    }
+
+.header-asistencia{
+    height: 105vh;
+    }
+
+.header-asistencia:before{
+    
+    height: 105vh;
+    
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .card-video{
+        min-height: 575px;
+    }
+
+}
+
