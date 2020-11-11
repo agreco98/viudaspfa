@@ -6,7 +6,7 @@ body{
 
 .header{
     width: 100%;
-    background-image: url(../imagenes/manos-unidas.jpg);
+    background-image: url(../imagenes/manos-unidas.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,7 +200,7 @@ background-image: none!important;
 .header-nosotros{
     width: 100%;
     height: 90vh;
-    background-image: url(../imagenes/DSC01619.jpg);
+    background-image: url(../imagenes/DSC01619.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -323,7 +323,7 @@ background-image: none!important;
 .heroes{
     width: 100%;
     height: 85vh;
-    background-image: url(../imagenes/heroes-sentimientos.jpg);
+    background-image: url(../imagenes/heroes-sentimientos.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -362,7 +362,7 @@ background-image: none!important;
 .header-eventos{
     width: 100%;
     height: 90vh;
-    background-image: url(../imagenes/portada-actividades.jpg);
+    background-image: url(../imagenes/portada-actividades.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -524,7 +524,7 @@ background-image: none!important;
 .header-asistencia{
     width: 100%;
     height: 90vh;
-    background-image: url(../imagenes/Eventos/eventos-2015/eventos-2015-13.jpg);
+    background-image: url(../imagenes/Eventos/eventos-2015/eventos-2015-13.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
