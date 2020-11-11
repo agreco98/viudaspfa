@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel = "icon" href = "imagenes/Logo GVH.svg" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/logico/lazy-youtube-embed/dist/lazy-youtube-embed.css"/>
     <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
     crossorigin="anonymous">
+
 <link rel= "stylesheet" href="estilos/css.css"/>
 </head>
 
@@ -153,8 +155,7 @@
           <div class="card mb-3 shadow border-primary card-video">
             <div class="row no-gutters">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <iframe width="450px" height="296px" src="https://www.youtube.com/embed/0_M0njQK4ZY" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a class="lazy-youtube-embed" href="https://youtu.be/0_M0njQK4ZY"> Video</a>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-center">
                 <div class="card-body">
@@ -232,6 +233,7 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/998daf6470.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazy-youtube-embed@1.0.0/dist/lazy-youtube-embed.js" defer></script>
         <script>
           $(window).scroll(function(){
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 190);
