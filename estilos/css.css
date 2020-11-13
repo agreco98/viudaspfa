@@ -75,7 +75,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     background-position: center;background-size: cover;background-attachment: fixed}
     .header-asistencia:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(92, 92, 92, 0.493), rgba(34, 25, 36, 0.829))}
-    .header-novedades{width: 100%;height: 90vh;background-image: url(../imagenes/Novedades/fondo-novedades.jpg);
+    .header-novedades{width: 100%;height: 90vh;background-image: url(../imagenes/Novedades/fondo-novedades.webp);
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed}
     .header-novedades:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36))}
