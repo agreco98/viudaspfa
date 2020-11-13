@@ -87,8 +87,8 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     display: block; position: relative; padding-top: 62.7%;}
     @media only screen and (max-width: 767px){.header-nosotros{height: 100vh}.header-nosotros:before{height: 100vh}
     .header-asistencia{height: 105vh}.header-asistencia:before{height: 105vh}.text-mine{font-family: 'Crimson Text', serif;; font-size: 20px;margin-top: 60px;
-    color: #f4f4f4}#p{font-family: 'Crimson Text', serif; font-size: 30px; margin-top: 30px}.text-mine-nosotros{font-family: 'Crimson Text', serif; font-size: 30px;}
-    #p-nosotros{font-size: 20px; text-align: left;}.heroes{width: 100%;height: 95vh;}.carousel-novedades-1{min-width: 25.7rem; max-height: 21.25rem;}
+    color: #f4f4f4}#p{font-family: 'Crimson Text', serif; font-size: 30px; margin-top: 30px}.text-mine-nosotros{font-family: 'Crimson Text', serif; font-size: 20px}
+    #p-nosotros{font-size: 10px; text-align: left!important}.heroes{width: 100%;height: 95vh}.carousel-novedades-1{min-width: 25.7rem; max-height: 21.25rem;}
     .img-novedades-1{max-width: 28rem; max-height: 21rem;}.carousel-novedades-2{min-width: 25.7rem; max-height: 25rem;}.img-novedades-2{max-width: 26rem; height: 20rem;}}
     @media only screen and (max-width: 767px){.card-video{min-height: 575px}}
 
