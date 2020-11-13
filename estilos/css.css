@@ -79,12 +79,16 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed}
     .header-novedades:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36))}
+    .carousel-novedades-1{width: 50rem; height: 31.25rem;}.img-novedades-1{width: 50rem; height: 31rem;}
+    .carousel-novedades-2{width: 50rem; height: 35rem;}.img-novedades-2{width: 50rem; height: 30rem;}
     .h1-asistencia{font-family: 'Paladino Lynotipe';font-size: 50px;color: #3b3b3b}.card-video{max-width: 950px;
     height: 300px}.fa-bars{color: #f4f4f4;font-size: 30px}
     .lazy-youtube-embed {background-image: url(../imagenes/nosotros/youtube.webp);background-size: cover; background-repeat: no-repeat;
     display: block; position: relative; padding-top: 62.7%;}
     @media only screen and (max-width: 767px){.header-nosotros{height: 100vh}.header-nosotros:before{height: 100vh}
-    .header-asistencia{height: 105vh}.header-asistencia:before{height: 105vh}.text-mine{font-size: 20px;margin-top: 60px;
-    color: #f4f4f4}#p{font-size: 30px; margin-top: 30px}}
+    .header-asistencia{height: 105vh}.header-asistencia:before{height: 105vh}.text-mine{font-family: 'Crimson Text', serif;; font-size: 20px;margin-top: 60px;
+    color: #f4f4f4}#p{font-family: 'Crimson Text', serif; font-size: 30px; margin-top: 30px}.text-mine-nosotros{font-family: 'Crimson Text', serif; font-size: 30px;}
+    #p-nosotros{font-size: 20px; text-align: left;}.heroes{width: 100%;height: 95vh;}.carousel-novedades-1{min-width: 25.7rem; max-height: 21.25rem;}
+    .img-novedades-1{max-width: 28rem; max-height: 21rem;}.carousel-novedades-2{min-width: 25.7rem; max-height: 25rem;}.img-novedades-2{max-width: 26rem; height: 20rem;}}
     @media only screen and (max-width: 767px){.card-video{min-height: 575px}}
 
