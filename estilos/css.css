@@ -1,4 +1,4 @@
-body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../imagenes/manos-unidas.webp);
+body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../imagenes/index/manos-unidas.webp);
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed}
     .header:before{content: '';width: 100%;min-height: 100vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36))}.size-logo{height: 80px}
@@ -13,7 +13,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     font-size: 20px}.btn-mine-header:hover{background-color: #034c8c9f;color: #f4f4f4a4}
     .btn-mine{font-family: 'Roboto';font-weight: bold;padding: 10px 60px;color: #f4f4f4;background-color: #034c8c;
     margin-top: 30px;box-shadow: 2px 2px 5px rgb(71, 71, 71);border-radius: 2px;font-size: 20px}
-    .btn-mine:hover{background-color: #034c8c9f;color: #f4f4f4a4}.video{margin-top: 10px;margin-bottom: 10px}
+    .btn-mine:hover{background-color: #034c8c9f;color: #f4f4f4a4}.video{min-height: 100%;width: 100%;}
     .row-general{min-height: 65vh}.row-general-2{min-height: 40vh}.navbar-toggler{background-color: transparent;
     border: none}.navbar-toggler-icon{background-image: none!important}.text-main{font-family: 'Paladino Lynotipe';
     color: #3b3b3b}.hr-main-2{margin-top: 45px;margin-right: 12px}.hr-main{margin-bottom: 50px;margin-left: 0px}
@@ -22,7 +22,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     .p-section-2{font-family: 'Roboto';font-size: 22px;color: #3b3b3b}.i{color: #f4f4f4;font-size: 2.5rem}
     .text-cite{font-size: 20px}.text-gracias{font-family: 'Paladino Lynotipe';font-size: 45px}
     .size-logo-final{height: 45px}#footer-2{background-color: #333333;border-width: 3.5px 0 0;border-style: solid;
-    border-color: #39b54a7e}.header-nosotros{width: 100%;height: 90vh;background-image: url(../imagenes/DSC01619.webp);
+    border-color: #39b54a7e}.header-nosotros{width: 100%;height: 90vh;background-image: url(../imagenes/nosotros/fondo-nosotros.webp);
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed}
     .header-nosotros:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(204, 204, 204, 0.616), rgb(204, 204, 204, 0.616))}
@@ -32,7 +32,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     .card-header{background-color: #034c8c;text-transform: uppercase;color: #f4f4f4;font-weight: bolder;
     font-family: 'Paladino Lynotipe'}.card-title{text-transform: uppercase;color: #3b3b3b;font-weight: bolder;
     font-family: 'Paladino Lynotipe'!important}.card-text{color: #3b3b3b}.bg-section-nosotros{background-color: #02437c}
-    .text-org-nosotros{font-style: italic}.header-sentimientos{width: 100%;height: 90vh;background-image: url(../imagenes/manos-sentimientos.webp);
+    .text-org-nosotros{font-style: italic}.header-sentimientos{width: 100%;height: 90vh;background-image: url(../imagenes/sentimientos/manos-sentimientos.webp);
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed}
     .header-sentimientos:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(158, 158, 158, 0.747), rgba(158, 158, 158, 0.747))}
@@ -41,13 +41,13 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     .btn-mine-sentimientos{font-family: 'Roboto';font-weight: bold;padding: 8px 60px;color: #f4f4f4;
     background-color: #034c8c;box-shadow: 2px 2px 5px rgb(71, 71, 71);border-radius: 2px;font-size: 20px}
     .btn-mine-sentimientos:hover{background-color: #034c8c9f;color: #f4f4f4a4}.bg-success{background-color: #39b54a7e!important;
-    border-radius: 2px}.heroes{width: 100%;height: 85vh;background-image: url(../imagenes/heroes-sentimientos.webp);
+    border-radius: 2px}.heroes{width: 100%;height: 85vh;background-image: url(../imagenes/sentimientos/heroes-sentimientos.webp);
     background-repeat: no-repeat;background-position: center;background-size: cover}.btn-bienestar{font-weight: bold;
     padding: 8px 40px;color: #034c8c;background-color: #fff;margin-top: 8px;box-shadow: 2px 2px 5px rgb(71, 71, 71);
     border-radius: 2px;border: 2px solid #034c8c;min-width: 18rem}.btn-bienestar:hover{color: #034c8c9f;border: 2px solid #034c8c9f}
     .btn-medios{color: #3b3b3b;font-size: 30px}.btn-medios:hover{background-color: #034c8c;padding: 6px 30px;
     border-radius: 2px;transition: 0.5s ease-in-out;color: #f4f4f4}.header-eventos{width: 100%;height: 90vh;
-    background-image: url(../imagenes/portada-actividades.png);background-repeat: no-repeat;background-position: center;
+    background-image: url(../imagenes/Eventos/portada-actividades.webp);background-repeat: no-repeat;background-position: center;
     background-size: cover;background-attachment: fixed}.header-eventos:before{content: '';width: 100%;min-height: 90vh;
     position: absolute;top: 0;left: 0;background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgba(34, 25, 36, 0.87))}
     .text-mine-actividades{font-size: 50px;text-transform: uppercase;text-shadow: 1px 1px 2px rgb(80, 80, 80)}
@@ -63,7 +63,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     font-family: 'Roboto';color: white;margin-top: 8px;padding: 10px 45px;border-radius: 2px;border: none;
     font-weight: bold}#enviar:hover{background-color: #034c8c9f}.bg-danger{background-color: #034c8c!important}
     .fa-phone-alt{font-size: 40px}.fa-map-marker-alt{font-size: 40px}.fa-envelope{font-size: 45px}
-    .header-contacto{width: 100%;height: 90vh;background-image: url(../imagenes/manos-unidas.jpg);
+    .header-contacto{width: 100%;height: 90vh;background-image: url(../imagenes/index/manos-unidas.webp);
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed}
     .header-contacto:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgba(34, 25, 36, 0.87))}
@@ -71,7 +71,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     .carousel-control-prev-icon{height: 50px;width: 50px;background-color: #3B3B3B;background-size: 1.2rem;
     border-radius: 50%}.carousel-control-next-icon{height: 50px;width: 50px;background-color: #3B3B3B;
     background-size: 1.2rem;border-radius: 50%}.header-asistencia{width: 100%;height: 90vh;
-    background-image: url(../imagenes/Eventos/eventos-2015/eventos-2015-13.webp);background-repeat: no-repeat;
+    background-image: url(../imagenes/Asistencia/fondo-asistencia.webp);background-repeat: no-repeat;
     background-position: center;background-size: cover;background-attachment: fixed}
     .header-asistencia:before{content: '';width: 100%;min-height: 90vh;position: absolute;top: 0;left: 0;
     background-image: linear-gradient(rgba(92, 92, 92, 0.493), rgba(34, 25, 36, 0.829))}
@@ -81,6 +81,8 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     background-image: linear-gradient(rgba(63, 63, 63, 0.164), rgb(34, 25, 36))}
     .h1-asistencia{font-family: 'Paladino Lynotipe';font-size: 50px;color: #3b3b3b}.card-video{max-width: 950px;
     height: 300px}.fa-bars{color: #f4f4f4;font-size: 30px}
+    .lazy-youtube-embed {background-image: url(../imagenes/nosotros/youtube.webp);background-size: cover; background-repeat: no-repeat;
+    display: block; position: relative; padding-top: 62.7%;}
     @media only screen and (max-width: 767px){.header-nosotros{height: 100vh}.header-nosotros:before{height: 100vh}
     .header-asistencia{height: 105vh}.header-asistencia:before{height: 105vh}}
     @media only screen and (max-width: 767px){.card-video{min-height: 575px}}
