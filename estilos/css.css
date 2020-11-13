@@ -84,7 +84,7 @@ body{background-color: #e9e9e938}.header{width: 100%;background-image: url(../im
     .lazy-youtube-embed {background-image: url(../imagenes/nosotros/youtube.webp);background-size: cover; background-repeat: no-repeat;
     display: block; position: relative; padding-top: 62.7%;}
     @media only screen and (max-width: 767px){.header-nosotros{height: 100vh}.header-nosotros:before{height: 100vh}
-    .header-asistencia{height: 105vh}.header-asistencia:before{height: 105vh}.text-mine{font-size: 15px;margin-top: 60px;
+    .header-asistencia{height: 105vh}.header-asistencia:before{height: 105vh}.text-mine{font-size: 20px;margin-top: 60px;
     color: #f4f4f4}#p{font-size: 30px; margin-top: 30px}}
     @media only screen and (max-width: 767px){.card-video{min-height: 575px}}
 
